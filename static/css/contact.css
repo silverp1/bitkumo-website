@@ -1,0 +1,10 @@
+#bitkumo .contact-container {
+  padding:1em;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#bitkumo .contact-container ul {
+  list-style: none;
+}
