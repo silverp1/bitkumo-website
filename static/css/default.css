@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Roboto;
+  src: url(static/font/Roboto-Regular.ttf);
+}
+
 * {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
@@ -7,6 +12,7 @@
 body {
   padding-top: 50px;
   margin-bottom: 15em !important;
+  font-family: Roboto !important;
 }
 
 html {
