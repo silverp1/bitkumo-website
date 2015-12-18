@@ -1,7 +1,7 @@
 test:
     override:
-        - rake test
-        
+        - bundle exec rake test
+
 deployment:
   push_to_server:
     branch: master
