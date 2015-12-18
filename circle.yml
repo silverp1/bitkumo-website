@@ -1,3 +1,7 @@
+test:
+    override:
+        - rake test
+        
 deployment:
   push_to_server:
     branch: master
