@@ -59,7 +59,7 @@ html {
 
 .footer li {
   color: #565656;
-  padding:.2em;
+  padding:.1em;
   font-size:16px;
 }
 
@@ -90,6 +90,14 @@ html {
 
 .main-jumbotron {
   background-color: #000 !important;
+}
+
+a.support-link:link, a.support-link:visited {
+  color: #ff6c00;
+}
+
+a.sign-up-link:link, a.sign-up-link:visited {
+  #color: #fff;
 }
 
 .pricing-jumbotron {
