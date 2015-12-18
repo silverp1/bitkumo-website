@@ -1,9 +1,9 @@
-test: 
-  override: 
-    - echo do it live 
+test:
+  override:
+    - echo do it live
 
-deployment: 
-  push_to_server: 
-    branch: master 
-    commands: 
+deployment:
+  push_to_server:
+    branch: master
+    commands:
       - rsync -avz * circleci@bitkumo.com:/var/www/bitkumo 
