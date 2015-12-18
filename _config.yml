@@ -13,7 +13,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bitkumo.com" # the base hostname & protocol for your site
 twitter_username: getbitkumo
 github_username:  bitkumo
+timezone: America/New_York
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
+
+kramdown:
+    input: GFM
