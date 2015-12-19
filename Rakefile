@@ -6,8 +6,9 @@ task :test do
         :href_ignore => [
             "#"
         ],
-        :domain_ignore => [
-            "linkedin.com"
-        ]
+        :url_ignore => [
+            /linkedin\.com/
+        ],
+        :disable_external => true
         }).run
 end
