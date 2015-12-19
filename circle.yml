@@ -6,4 +6,4 @@ deployment:
   push_to_server:
     branch: master
     commands:
-      - rsync -avz * circleci@bitkumo.com:/var/www/bitkumo
+      - rsync -avz _site/ circleci@bitkumo.com:/var/www/bitkumo
