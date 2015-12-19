@@ -1,38 +1,42 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<footer class="footer">
+  <div class="row footer-row">
+    <div class="col-lg-4 col-sm-4 col-xs-6 footer-col">
+      <h3>Product</h3>
+      <ul>
+        <li><a href="https://bitkumo.com/#pricing">Pricing</a></li>
+        <li><a href="https://app.bitkumo.com/auth/login">Login</a></li>
+        <Li><a href="https://app.bitkumo.com/auth/register">Sign Up</a></li>
+        <li><a href="status.html">Platform Status</a></li>
+        <li><a href="http://eepurl.com/bJBfWj">Status Notifications</a></li>
+        <!--<li><a href="#">Documentation</a></li>!-->
+      </ul>
     </div>
-
+    <div class="col-lg-4 col-sm-4 hidden-xs footer-col">
+      <h3>Social</h3>
+      <ul>
+        <li><a href="https://www.facebook.com/getbitkumo"><i class="fa fa-facebook-official"></i>
+Facebook</a></li>
+        <li><a href="https://twitter.com/getbitkumo"><i class="fa fa-twitter-square"></i>
+Twitter</a></li>
+        <li><a href="https://plus.google.com/u/0/b/109322989593017675398/109322989593017675398/"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+        <li><a href="https://www.linkedin.com/company/bitkumo"><i class="fa fa-linkedin-square"></i> LinkedIn</a></li>
+        <li><a href="https://github.com/bitkumo"><i class="fa fa-github-square"></i>
+Github</a></li>
+      </ul>
+    </div>
+    <div class="col-lg-4 col-sm-4 col-xs-6 footer-col">
+      <!--<img src="static/image/footer-logo.png" />!-->
+      <h3>Company</h3>
+      <ul>
+        <li><a href="mailto:wtf@bitkumo.com">Platform Support</a></li>
+        <li><a href="mailto:hello@bitkumo.com">General Inquiries</a></li>
+        <!--<li><a href="#">Blog</a></li>!-->
+        <li><a href="about">About Us</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+    </div>
   </div>
-
+  <div class="container">
+    <p class="text-muted">Copyright &copy; 2015, Bitkumo, LLC. All rights reserved.</p>
+  </div>
 </footer>

@@ -1,23 +1,19 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">
-        <img src="/images/header-logo.png" alt="bitkumo Logo" />
-    </a>
-
+<body id="bitkumo">
     <nav class="navbar navbar-default navbar-fixed-top navbar-bitkumo">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
             </button>
-            <a class="navbar-brand" href="https://bitkumo.com">
-              <img src="static/image/header-logo.png">
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+              <img src="{{ site.baseurl }}/images/header-logo.png">
             </a>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#docs">Docs</a></li>
+               <li><a href="https://ask.bitkumo.com">Community</a></li>
               <li><a href="#pricing">Pricing</a></li>
               <li><a href="#faq">FAQ</a></li>
               <li><a href="https://app.bitkumo.com/auth/login">Login</a></li>
@@ -31,7 +27,3 @@
           <!--/.nav-collapse -->
         </div>
       </nav>
-
-  </div>
-
-</header>

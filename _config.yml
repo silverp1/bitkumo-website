@@ -9,7 +9,7 @@
 title: bitkumo - Cloud hosting for hackers
 email: hello@bitkumo.com
 description: Cloud hosting for hackers
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://bitkumo.com" # the base hostname & protocol for your site
 twitter_username: getbitkumo
 github_username:  bitkumo
