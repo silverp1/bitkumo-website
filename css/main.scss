@@ -92,10 +92,23 @@ html {
   text-align: center;
 }
 
-.faq-container {
+.distro-container {
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
   padding: 40px 15px;
   text-align: left;
-  margin-bottom: 5em;
+  margin-bottom: 10em;
+}
+
+#bitkumo .td-shrink {
+  width: 1%;
+}
+
+#bitkumo .distro-table {
+  width: 75%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .main-jumbotron {
@@ -107,7 +120,7 @@ a.support-link:link, a.support-link:visited {
 }
 
 a.sign-up-link:link, a.sign-up-link:visited {
-  #color: #fff;
+  color: #fff;
 }
 
 .pricing-jumbotron {
@@ -133,7 +146,7 @@ a.sign-up-link:link, a.sign-up-link:visited {
 }
 
 .pricing-container {
-  padding-bottom: 1em;
+  padding-bottom: 0em;
 }
 
 h3.faq {
@@ -353,6 +366,20 @@ p.faq {
   margin-right: 2em;
 }
 
+#bitkumo .distro-image {
+  height:75px;
+  width:75px;
+}
+
+#bitkumo .distro-col {
+  margin:1em;
+}
+
+#bitkumo .row-center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
 #bitkumo .social-icon {
   padding:.2em;
 }
@@ -407,4 +434,31 @@ p.faq {
 #bitkumo .row-normal {
   background-color: #fff;
   padding: 1em;
+}
+
+/* FAQ page */
+
+#bitkumo .faq-container {
+  padding:1em;
+  width:60%;
+  margin-left:auto;
+  margin-right:auto;
+  font-size:16px;
+  margin-bottom: 25em;
+}
+
+a.faq-link:link, a.faq-link:visited {
+  color: #ff6c00;
+}
+
+a.faq-link:link, a.faq-link:visited {
+  #color: #fff;
+}
+
+a.hilight-link:link, a.hilight-link:visited {
+  color: #ff6c00;
+}
+
+a.faq-hilight:link, a.hilight-link:visited {
+  #color: #fff;
 }

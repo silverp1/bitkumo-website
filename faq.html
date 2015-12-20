@@ -1,0 +1,47 @@
+---
+layout: default
+title: bitkumo - Frequently Asked Questions
+permalink: /faq/
+---
+
+<div class="faq-container">
+  <h1><i class="fa fa-question"></i> Frequently Asked Questions</h1>
+  <p>These are some of the common questions we have been asked (or ones we think our customers might ask). If you have a question not on this list feel free to <a class="faq-link" href="mailto:hello@bitkumo">reach out</a> to us.</p>
+  <div class="muted-row">
+    <h2>General Questions</h2>
+      <h3>Why doesn't Bitkumo offer support?</h3>
+      <p>It is expensive to provide good support to customers. To provide support, most providers bake extra cost into their plan prices making everybody pay more for their services. Not everybody needs support though, so if you are a capable systems administrator you pay to subsidize the support for people who have no idea how to configure their system, need help with Apache or other system administration related questions. We decided that isn't right. If you don't need support you shouldn't have to pay for it, so we got rid of the support team and made our prices 20% cheaper than bigger competitors.</p>
+      <h3>What if there is a problem with Bitkumo's infrastructure?</h3>
+      <p>We back our infrastructure 100% so feel free to <a class="faq-link" href="mailto:wtf@bitkumo.com">email us</a> with details if you suspect there is a problem with our infrastructure.</p>
+      <h3>What if I need help with administrative tasks?</h3>
+      <p>Honestly your best resource is Google. If you want to know how to setup Apache search "How do I set up Apache?" in Google. If you need more help than that you might want to try asking the <a class="faq-link" href="https://ask.bitkumo.com">Bitkumo community</a>. Before you ask the community, please be sure to provide as much detail about the problem you are having as possible. If you ask "How do I setup Apache?" you probably won't get a favorable response as this query is better directed to Google. Rather, ask detailed, specific questions and you'll likely get good answers.</p>
+      <h3>Can you please add {insert feature}?</h3>
+      <p>In short, probably, but we can't make any promises! <a class="faq-link" href="mailto:hello@bitkumo.com">Let us know</a> what features you would like to see and we'll do our best to make them happen.</p>
+  </div>
+  <div class="row-normal">
+    <h2>Technology Questions</h2>
+      <h3>What virtualization technology do you use?</h3>
+      <p>Our virtual machines are virtualized using Libvirt and QEMU.</p>
+      <h3>Do you support Windows?</h3>
+      <p>In theory there is nothing preventing you from running Windows on KVM, however our platform does not support windows at this time.</p>
+      <h3>What software do you use for your panel?</h3>
+      <p>Our panel is provided by <a class="faq-link" href="https://virtkick.com">Virtkick</a>.</p>
+      <h3>What sort of uplink do your hosts have?</h3>
+      <p>Our hosts have 1Gbps uplinks, though this is shared with other virtual machines on the host so you can't expect to see a full 1Gbps in a real world scenario.</p>
+      <h3>What kind of hardware do you use?</h3>
+      <p>We currently use harder that older than some of the newer providers but we are working to upgrade this to newer hardware that more closesly matches large cloud providers. We currently have machines with dual Xeon 5420 processors, 24GB of RAM and a Raid 1 array.</p>
+      <h3>Do you own your hardware?</h3>
+      <p>No, we do not currently own our hardware. We use dedicated servers from <a class="faq-link" href="https://datashack.net">Datashack</a>.</p>
+  </div>
+  <div class="muted-row">
+    <h2>Billing Questions</h2>
+    <h3>When does billing occur?</h3>
+    <p>Billing will occur one month from when you created your machine. If you created it on December 12th, you can expect to be billed on or around January 12th.</p>
+    <h3>What happens if I delete my machine?</h3>
+    <p>Your subscription will remain on your account enabling you to create a new machine. Please note the subscription will continue ticking down until a new machine is created. For example, if you create a machine on the 1st, delete it on the 10th, and create another using that subscription on the 15th, you would be charged for that machine in 15 days.</p>
+    <h3>Does Bitkumo offer refunds?</h3>
+    <p>We do not offer refunds, you are welcome to use pending subscriptions and cancel them before your renewal date however.</p>
+    <h3>What if I have another billing related question that isn't covered here?</h3>
+    <p>Please reach out to us <a class="faq-link" href="mailto:billing@bitkumo.com">via email</a>.</p>
+  </div>
+</div>
