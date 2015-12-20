@@ -462,3 +462,40 @@ a.hilight-link:link, a.hilight-link:visited {
 a.faq-hilight:link, a.hilight-link:visited {
   #color: #fff;
 }
+
+/* Blog */
+
+.blog-index {
+    margin-left: 5px;
+}
+
+.blog-index ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.blog-index li {
+    border-bottom: solid 1px gray;
+    padding-bottom: 10px;
+}
+
+.post {
+    margin-left: 5px;
+}
+
+.tag {
+    margin-right: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+/* Docs */
+
+.doc {
+    margin-left: 5px;
+}
