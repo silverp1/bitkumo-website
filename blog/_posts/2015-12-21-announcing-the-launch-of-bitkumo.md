@@ -9,7 +9,7 @@ permalink: /blog/:title/
 author: jpettit
 ---
 
-![Bitkumo Launcher](/images/blog/bitkumo-launcher.md)
+![Bitkumo Launcher](/images/blog/bitkumo-launcher.png)
 
 We are super excited to announce the official launch of the Bitkumo cloud! Over the last two weeks we have secured infrastructure, flushed out bugs, cleaned up our main website, and worked nonstop to create something that we are proud to share with the world. We are thrilled to be opening our doors to hackers like ourselves who are looking for a no nonsense hosting solution.
 
