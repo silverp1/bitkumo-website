@@ -30,6 +30,18 @@ html {
   min-height: 100%;
 }
 
+.tag-list {
+  list-style:square;
+}
+
+.post-list {
+  list-style:none;
+}
+.tag-container {
+  font-size:16px;
+  margin-bottom:25em;
+}
+
 #bitkumo .footer-col {
   text-align:left;
 }
@@ -484,6 +496,7 @@ a.faq-hilight:link, a.hilight-link:visited {
     margin-right: 5px;
     text-decoration: none;
     color: white;
+    background-color:#FF8A00 !important;
 }
 
 .post-content {
