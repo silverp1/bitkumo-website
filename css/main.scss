@@ -37,7 +37,13 @@ html {
 .post-list {
   list-style:none;
 }
+
 .tag-container {
+  font-size:16px;
+  margin-bottom:25em;
+}
+
+.blog-container {
   font-size:16px;
   margin-bottom:25em;
 }
@@ -502,6 +508,8 @@ a.faq-hilight:link, a.hilight-link:visited {
     font-size:16px;
     line-height:24px;
 }
+
+
 
 /* Docs */
 
