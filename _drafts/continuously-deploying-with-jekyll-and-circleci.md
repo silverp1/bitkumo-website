@@ -44,7 +44,7 @@ cat .ssh/id_rsa
 
 Copy the private key and paste it into the CircleCI form under *Project Settings* -> *SSH Permissions* (Or the URL in the form of https://circleci.com/gh/$ORG/$REPO/edit#ssh)
 
-<img src="/images/blog/circleci_keys.png" alt="CircleCI Key Entry Form"></img>
+<img width="50%" src="/images/blog/circleci_keys.png" alt="CircleCI Key Entry Form"></img>
 
 Back on your server, add the public key to `/home/circleci/.ssh/authorized_keys` to allow the CircleCI builder to connect to your server. 
 
