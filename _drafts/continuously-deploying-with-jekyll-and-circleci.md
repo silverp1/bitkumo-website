@@ -30,13 +30,13 @@ GitHub Pages is perfect for many different purposes, but since it runs in somewh
 
 In order to let CircleCI deploy your Jekyll site to your server you will need to create a new user and a deployment key and add it to CircleCI. Log into your server and create new user: 
 
-```
+```bash
 sudo adduser circleci 
 ```
 
 Log in as this user and create a new ssh key. Be sure to not create a key passphrase since you will not be able to enter the password during the deployment phase. 
 
-```
+```bash
 su - circleci 
 ssh-keygen 
 cat .ssh/id_rsa 
@@ -48,7 +48,7 @@ Copy the private key and paste it into the CircleCI form under *Project Settings
 
 Back on your server, add the public key to `/home/circleci/.ssh/authorized_keys` to allow the CircleCI builder to connect to your server. 
 
-```
+```bash
 cp /home/circleci/.ssh/id_rsa.pub /home/circleci/.ssh/authorized_keys 
 ```
 
@@ -56,7 +56,7 @@ cp /home/circleci/.ssh/id_rsa.pub /home/circleci/.ssh/authorized_keys
 
 To make it easier to build the project on CircleCI (any any other server) we create a Gemfile and Rakefile to manage our Ruby Gems and define what needs to be done during a build. Our Gem file is shown below and this file specifies all of the Gems that we want to be installed during a build. 
 
-```
+```ruby
 source 'https://rubygems.org'
 ruby '2.2.1'
 
@@ -71,7 +71,7 @@ end
 
 Our Rakefile is shown below and specifies what to do when we run tests. 
 
-```
+```ruby
 require 'html/proofer'
 
 task :test do
@@ -94,7 +94,7 @@ We are using [html-proofer](https://github.com/gjtorikian/html-proofer) to run s
 
 CircleCI uses a yml file to specify various configurations for what to do during a build, as well as specifying the deployment phase. Our circle.yml file is shown below: 
 
-```
+```yml
 test:
     override:
         - bundle exec rake test
