@@ -17,4 +17,4 @@ We are firm believers in an _a la carte_ pricing model that just doesn't seem to
 
 The Bitkumo team has several years of combined experience in Linux, hosting, and servers. We are committed to building a platform that you will love. We have some huge plans for the future of Bitkumo and we are just getting started, stay tuned!
 
-Looking for 0% nonsense cloud hosting? [Get started in the Bitkumo Cloud Today!](https://app.bitkumo.com/auth/register)
+*Looking for 0% nonsense cloud hosting? [Get started in the Bitkumo Cloud Today!](https://app.bitkumo.com/auth/register)*

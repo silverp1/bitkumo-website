@@ -110,5 +110,5 @@ Since we have a Gem file, CircleCI will automatically run `bundle install` at th
 
 We have been pretty happy with this workflow so far, and it helps us deploy with confidence whenever we make changes to our main site. All of the code for our main site is [open source in GitHub](https://github.com/bitkumo/bitkumo-website) so you can try it for yourself. If you have any questions about deploying Jekyll sites to a VPS server using CircleCI please let us know in the comments below! 
 
-Looking for 0% nonsense cloud hosting? [Get started in the Bitkumo Cloud Today!](https://app.bitkumo.com/auth/register)
+*Looking for 0% nonsense cloud hosting? [Get started in the Bitkumo Cloud Today!](https://app.bitkumo.com/auth/register)*
 
