@@ -32,3 +32,5 @@ If you have ever found yourself needing support for something that is not infras
 ### Why is included support usually bad?
 
 Support that is included with cloud services tends to be bad because offering good support is very expensive and very challenging. This is a case where you get what you pay for. Fortunately for you as a consumer, many hosting providers are returning to an _a la carte_ model that allows you to make the choice to pay for support or not.  While pricing may not be set as a flat fee, _a la carte_ plans can still be very easy to understand. Ultimately, buying what you need (and nothing more) will keep more money in your pocket and will increase the likelihood you'll end up with great support when you need it.
+
+Looking for 0% nonsense cloud hosting? [Get started in the Bitkumo Cloud Today!](https://app.bitkumo.com/auth/register)
