@@ -9,7 +9,7 @@ permalink: /blog/:title/
 author: levlaz
 ---
 
-Happy New Year from the entire Bitkumo team! It seems that a lot of people set a resolution to blog more each year, this year you can make it happen easily by setting up [https://ghost.org](Ghost) on Bitkumo. Earlier this week we wrote about how we [https://bitkumo.com/blog/continuously-deploying-with-jekyll-and-circleci/](publish our site and blog using Jekyll). Jekyll is awesome, but if you want a more traditional CMS we would highly recommend ghost. Ghost is a no frills blogging platform that allows you to create beautiful blogs using Markdown. This guide will help you get off on the right foot in 2016. 
+Happy New Year from the entire Bitkumo team! It seems that a lot of people set a resolution to blog more each year, this year you can make it happen easily by setting up [Ghost](https://ghost.org) on Bitkumo. Earlier this week we wrote about how we [publish our site and blog using Jekyll](https://bitkumo.com/blog/continuously-deploying-with-jekyll-and-circleci/). Jekyll is awesome, but if you want a more traditional CMS we would highly recommend ghost. Ghost is a no frills blogging platform that allows you to create beautiful blogs using Markdown. This guide will help you get off on the right foot in 2016. 
 
 We will be setting up Ghost on a 512MB Bitkumo Server running Ubuntu 14.04 LTS. 
 
