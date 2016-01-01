@@ -77,7 +77,7 @@ Save this file after changing $MY_GHOST_BLOG.com to your own site name, then we 
 
 Now you should be able to go to `http://$YOUR_IP` and see your shiny new Ghost blog. Go to `http://$YOUR_IP/ghost` to set up a new admin account and get started! 
 
-<img src="/images/blog/ghost.png" alt="Ghost Screenshot">
+<img class="img-responsive" src="/images/blog/ghost.png" alt="Ghost Screenshot">
 
 For more information on what to do next check out [how to use ghost](http://support.ghost.org/how-to-use-ghost/). If you have any questions please let us know in the comments below. We are looking forward to reading your blogs in 2016! 
 
