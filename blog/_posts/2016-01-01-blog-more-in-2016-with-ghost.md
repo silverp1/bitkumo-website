@@ -75,7 +75,7 @@ Save this file after changing $MY_GHOST_BLOG.com to your own site name, then we 
     ln -s /etc/nginx/sites-available/ghost_blog /etc/nginx/sites-enabled/ghost_blog 
     service nginx restart 
 
-Now you should be able to go to http://$YOUR_IP and see your shiny new Ghost blog. Go to `http://$YOUR_IP/ghost` to set up a new admin account and get started! 
+Now you should be able to go to `http://$YOUR_IP` and see your shiny new Ghost blog. Go to `http://$YOUR_IP/ghost` to set up a new admin account and get started! 
 
 <img src="/images/blog/ghost.png" alt="Ghost Screenshot">
 
