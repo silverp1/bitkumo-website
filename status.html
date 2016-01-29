@@ -43,18 +43,25 @@ permalink: /status/
     
     <h4><strong> Machine creates fail</strong></h4>
     
-    <p><strong> 01/27/2016 10:00 PM CT</strong></p>
-    <p>A patch has been applied that will allow machines to be created but further research determined there is an underlying communication
-    problem between our panel and our hypervisor preventing creates in some situations. If you attempt to create or manage a machine and
-    you see an error please try again in a moment as the communication problem does resolve its self intermittently. We are continuing to
-    investigate the communication problem and will continue to provide updates as the issue evolves.</p>
-    
     <p><strong> 01/27/2016 6:00 PM CT</strong></p>
     
     <p>A software upgrade on our hypervisor caused several critical issues that are now preventing VM creates on this hypervisor. An error
     on our part is preventing us from rolling back this software change so we are currently working to patch the software to function properly.
     We do not have an ETA for resolution at this time but we will update this page when we have more information. Thank you for your patience
     and understanding.</p>
+    
+    <p><strong> 01/27/2016 10:00 PM CT</strong></p>
+    <p>A patch has been applied that will allow machines to be created but further research determined there is an underlying communication
+    problem between our panel and our hypervisor preventing creates in some situations. If you attempt to create or manage a machine and
+    you see an error please try again in a moment as the communication problem does resolve its self intermittently. We are continuing to
+    investigate the communication problem and will continue to provide updates as the issue evolves.</p>
+    
+    <p><strong> 01/29/2016 11:00 AM CT</strong></p>
+    <p>After 24 hours of monitoring we have now confirmed that the communications issue is now completely resolved. Ultimately
+    the problem was related to a software configuration problem that resulted in timeouts being extremely low. The very low
+    timeouts caused the connection between our panel and our hypervisors to prematurely timeout over and over, preventing
+    reliable communication between these machines. The configuration has been updated and we do not except this issue to
+    occur again in the future. Thank you for your patience and understanding.</p>
 
     <h4><strong> Users not able to create VMs in the Panel - Post Mortem </strong></h4>
 
