@@ -25,6 +25,121 @@ body {
   font-family: Roboto !important;
 }
 
+.three-call {
+  font-size:18px;
+}
+
+.monthly-price {
+  margin-bottom:0px !important;
+  padding-bottom:0px !important;
+}
+
+.pricing-panel {
+  padding-bottom:0px !important;
+}
+
+.btn-create-machine {
+  color: #ffffff;
+  background-color: #28BD1B;
+  border-color: #28BD1B;
+}
+
+.btn-create-machine:hover,
+.btn-create-machine:focus,
+.btn-create-machine:active,
+.btn-create-machine.active,
+.open .dropdown-toggle.btn-create-machine {
+  color: #ffffff;
+  background-color: #008F1D;
+  border-color: #28BD1B;
+}
+
+.btn-create-machine:active,
+.btn-create-machine.active,
+.open .dropdown-toggle.btn-create-machine {
+  background-image: none;
+}
+
+.btn-create-machine.disabled,
+.btn-create-machine[disabled],
+fieldset[disabled] .btn-create-machine,
+.btn-create-machine.disabled:hover,
+.btn-create-machine[disabled]:hover,
+fieldset[disabled] .btn-create-machine:hover,
+.btn-create-machine.disabled:focus,
+.btn-create-machine[disabled]:focus,
+fieldset[disabled] .btn-create-machine:focus,
+.btn-create-machine.disabled:active,
+.btn-create-machine[disabled]:active,
+fieldset[disabled] .btn-create-machine:active,
+.btn-create-machine.disabled.active,
+.btn-create-machine[disabled].active,
+fieldset[disabled] .btn-create-machine.active {
+  background-color: #28BD1B;
+  border-color: #28BD1B;
+}
+
+.btn-create-machine .badge {
+  color: #28BD1B;
+  background-color: #ffffff;
+}
+
+.btn-call-to-action {
+  color: #ffffff;
+  background-color: #FF6C00;
+  border-color: #FF6C00;
+}
+
+.btn-call-to-action:hover,
+.btn-call-to-action:focus,
+.btn-call-to-action:active,
+.btn-call-to-action.active,
+.open .dropdown-toggle.btn-call-to-action {
+  color: #ffffff;
+  background-color: #FC8835;
+  border-color: #FF6C00;
+}
+
+.btn-call-to-action:active,
+.btn-call-to-action.active,
+.open .dropdown-toggle.btn-call-to-action {
+  background-image: none;
+}
+
+.btn-call-to-action.disabled,
+.btn-call-to-action[disabled],
+fieldset[disabled] .btn-call-to-action,
+.btn-call-to-action.disabled:hover,
+.btn-call-to-action[disabled]:hover,
+fieldset[disabled] .btn-call-to-action:hover,
+.btn-call-to-action.disabled:focus,
+.btn-call-to-action[disabled]:focus,
+fieldset[disabled] .btn-call-to-action:focus,
+.btn-call-to-action.disabled:active,
+.btn-call-to-action[disabled]:active,
+fieldset[disabled] .btn-call-to-action:active,
+.btn-call-to-action.disabled.active,
+.btn-call-to-action[disabled].active,
+fieldset[disabled] .btn-call-to-action.active {
+  background-color: #FF6C00;
+  border-color: #FF6C00;
+}
+
+.btn-call-to-action .badge {
+  color: #FF6C00;
+  background-color: #ffffff;
+}
+
+.big-button {
+  width:95%;
+  font-size:18px !important;
+}
+
+.even-bigger-button {
+  width:20%;
+  font-size:24px !important;
+}
+
 html {
   position: relative;
   min-height: 100%;
