@@ -3,10 +3,21 @@ layout: default
 ---
 
 <div class="jumbotron main-jumbotron">
-  <div class="container">
+  <div class="container center">
     <h1>Cloud hosting for hackers</h1>
     <p>Bitkumo is a no frills cloud hosting company that scraps expensive support and passes the savings on to you.</p>
-    <p><a class="btn btn-create-machine even-bigger-button btn-lg sign-up-link" href="https://app.bitkumo.com/auth/register" role="button">Get Started Now</a></p>
+    <form method="post" class="center signup-form" action="https://app.bitkumo.com/auth" style="width:40%;">
+      <input name="redirect" type="hidden" value="/machines/new">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+        <input autocomplete="off" type="email" class="form-control calltoaction" name="user[email]" placeholder="Email Address">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword3">Password</label>
+        <input autocomplete="off" type="password" class="form-control calltoaction" name="user[password]" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-create-machine" style="width:50%; font-size:18px;">Create a Machine Now</button>
+    </form>
   </div>
 </div>
 <div class="container">
@@ -230,9 +241,11 @@ layout: default
         </div>
 
       </div>
-      <br/><br/>
+      <br/>
+      <br/>
       <div class="center">
-        <p>Purchase a plan with an annual subscription and <strong>get two months free</strong>.
+        <p>Purchase a plan with an annual subscription and
+          <strong>get two months free</strong>.
           <br/><a href="https://app.bitkumo.com" class="hilight-link">Get Started Now</a> to see all of our plans (including annual plans)!</p>
       </div>
     </div>

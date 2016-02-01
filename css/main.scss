@@ -25,6 +25,27 @@ body {
   font-family: Roboto !important;
 }
 
+.calltoaction {
+  margin:auto;
+  font-size:18px !important;
+  color:#777 !important;
+  padding:1.25em !important;
+  margin:10px !important;
+}
+
+#calltoaction input[type=password] {
+  margin:auto;
+}
+
+.wide-form-group {
+  width:40%;
+}
+
+.signup-form {
+  margin-left:auto;
+  margin-right:auto;
+  display:inline-block;
+}
 .three-call {
   font-size:18px;
 }
