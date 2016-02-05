@@ -4,99 +4,105 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
 <url>
   <loc>https://bitkumo.com/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/blog/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>https://bitkumo.com/pricing/</loc>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/faq/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/status/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/about/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/contact/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/blog/blog-more-in-2016-with-ghost/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/blog/continuously-deploying-with-jekyll-and-circleci/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/blog/support-should-not/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/blog/announcing-the-launch-of-bitkumo/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/blogging/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/ghost/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/bitkumo/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/devops/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/jekyll/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/circleci/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/support/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/case-study/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>https://bitkumo.com/tag/announcements/</loc>
-  <lastmod>2016-01-29T17:07:22+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2016-02-05T00:52:49+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
