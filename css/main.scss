@@ -289,6 +289,15 @@ a.sign-up-link:link, a.sign-up-link:visited {
   color: #fff;
 }
 
+.alt-page-h1 {
+  font-size:36px !important;
+}
+
+.pricing-page-jumbotron {
+  background-color:#fff !important;
+  padding-top:10px !important;
+}
+
 #bitkumo .footer-row {
   width:50%;
   margin-left:auto;
@@ -301,6 +310,10 @@ a.sign-up-link:link, a.sign-up-link:visited {
 
 .pricing-container {
   padding-bottom: 0em;
+}
+
+.price-container {
+  padding-bottom:8em;
 }
 
 h3.faq {
