@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Announcing Hardware"
+title: "Announcing New Hardware"
 category: blog
 tags:
   - bitkumo
