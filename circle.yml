@@ -7,3 +7,4 @@ deployment:
     branch: master
     commands:
       - rsync -avz _site/ circleci@bitkumo.com:/var/www/bitkumo
+      - rsync -avz _site/ circleci@www1.bitkumo.com:/var/www/bitkumo
