@@ -1,8 +1,7 @@
 test:
     override:
-      #- bundle exec rake test
-      - echo "Do it Live"
-      
+      - bundle exec rake test
+
 deployment:
   push_to_server:
     branch: master
